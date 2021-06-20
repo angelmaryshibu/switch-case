@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter your choice from 1 to 5");
+    scanf("%d",&a);
+    switch(a)
+    {case 1:printf("food item-PIZZA \n price-Rs 239");
+            break;
+    case 2:printf("food item-BURGER \n price-Rs 129");
+            break;
+    case 3:printf("food item-PASTA \n price-Rs 179");
+            break;
+    case 4:printf("food item-FRENCH FRIES \n price-Rs 99");
+            break;
+    case 5:printf("food item-SANDWHICH \n price-Rs 149");
+            break;
+    default:printf("error");
+    }
+    return 0;
+}
